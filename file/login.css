@@ -1,0 +1,170 @@
+header{
+	background-color: lavender;
+	padding: 1px;
+	margin: 1px;
+	border: 2px solid gainsboro;
+	border-color: black;
+}
+
+header h1{
+	text-align: center;
+	font-family: serif;
+	color: black;
+	font-size: 35px;
+	margin-top: 13px;
+	margin-bottom: 0px;
+	padding-top: 13px;
+	padding-bottom: 0px;
+}
+
+header p{
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 13px;
+}
+
+.menu ul{
+	background-color: black;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 18px;
+}
+ 
+.menu li{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 120px;
+    text-align: center;
+}
+ 
+.menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu li a:hover{
+    background-color:blue;
+}
+
+.menu a.login{
+	background-color: blue;
+}
+
+form {
+    width: 290px;
+    margin: 10px auto;
+    float: right;
+}
+
+.search {
+    padding: 7px 10px;
+    background: white;
+    border: 1px solid gainsboro;
+    border-color: lavender;
+    border-radius: 4px;
+  	height: 10px;
+
+}
+.button {
+    position: relative;
+    padding: 5px 10px;
+    left: -4px;
+    border: 1px solid gainsboro;
+    border-color: lavender;  
+    border-radius: 4px;
+    background-color: lightblue;
+    color: white;
+}
+.button:hover  {
+    background-color: black;
+    color: white;
+    border: 1px solid gainsboro;
+    border-color: white; 
+}
+
+.judul{
+	width: 350px;
+	height: 50px;
+	background-color: black;
+	border: 3px solid gainsboro;
+	border-color: black;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+h2{
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+
+}
+
+.isi{
+	width: 350px;
+	height: 170px;
+	background-color: lavender;
+	border: 3px solid gainsboro;
+	border-color: black;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	margin-left: 100px;
+}
+
+.text{
+	border-radius: 7px;
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+.pass{
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+.but{
+	background-color: red;
+	color: white;
+	border: 1px solid gainsboro;
+	border-color: black;
+	border-radius: 3px;
+	margin-left: 150px;
+	width: 50px;
+
+}
+
+.but:hover{
+	background-color: blue;
+	color: white;
+	border-color: black;
+}
+
+footer{
+	background-color: lavender;
+	height: 50px;
+	color: black;
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+	padding: 1px;
+	margin: 1px;
+	border: 2px solid gainsboro;
+	border-color: black;
+	margin-top: 180px;
+}
